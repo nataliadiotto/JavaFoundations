@@ -13,6 +13,8 @@ public class BasicFileAttributesTest01 {
 
     public static void main(String[] args) throws IOException {
 
+        //BasicFileAttributes, DosFileAttributes, PosixFileAttributes
+
         LocalDateTime date = LocalDateTime.now().minusDays(10);
         File file = new File("folder02/new.txt");
         boolean isCreated = file.createNewFile();
